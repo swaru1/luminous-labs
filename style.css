@@ -305,4 +305,55 @@ nav a {
 }
 
 #page-3 {
+    background-color: khaki;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh 8vw ;
+}
+
+#bg-watch {
+    background-image: url(./assets/watch-bg.webp);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+}
+
+#watch {
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/watch.webp);
+    background-position: center;
+    background-size: contain;
+}
+
+#txt-kini {
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+    font-family: sans-trail;
+    color: rgba(255, 255, 255, 0.574);
+}
+
+#txt-kini span {
+    color: whitesmoke;
+}
+
+#txt-kini h2 {
+    display: inline-block;
+}
+
+#btn-div2{
+    background-color: rgba(11, 11, 11, 0.381);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
 }
