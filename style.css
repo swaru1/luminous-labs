@@ -553,6 +553,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    display: none;
  /*    background-color: orange; */
 }
 
@@ -658,6 +659,7 @@ nav a {
     height: 100%;
     width: 100%;
     padding: 10vh 8vw;
+    display: none;
 }
 
 #banner span {
@@ -685,6 +687,7 @@ nav a {
    /*  background-color: skyblue; */
     width: 50%;
     font-size: 5vh;
+    font-weight: 200;
 }
 
 #banner button {
@@ -694,4 +697,69 @@ nav a {
     font-family: switzer;
     border-radius: 25px;
     border: none;
+}
+
+#page-7{
+    height: 100%;
+    width: 100%;
+    /* background-color: skyblue; */
+    padding: 24vh 40vh;
+}
+
+#page-7 section {
+   /*  background-color: aliceblue; */
+    height: 100%;
+    display: flex;
+    gap: 3vw;
+    align-items: start;
+}
+
+section #left {
+    /* background-color: yellow; */
+    width: 45%;
+    height: 100%;
+    font-family: switzer;
+    font-size: 2.5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section #left h1 {
+    margin-bottom: 8vh;
+    color:  rgb(168, 167, 165);
+}
+
+section #left button {
+    padding: 2vh 2vw;
+    border-radius: 25px;
+    width: fit-content;
+    border: none;
+    font-family: sans-trail;
+    color: white;
+    background-color: black;
+}
+
+section #left span {
+color: #000;
+}
+
+section #right {
+    width: 70%;
+    /* background-color: rgb(110, 181, 74); */
+}
+
+section #right i {
+    font-size: 3vh;
+}
+
+#right div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1vh;
+    font-size: 1.5vh;
+    padding: 6vh 2vw;
+    border-radius: 15px;
+    font-family: switzer;
+    background-color: rgba(237, 230, 230, 0.866);
 }
