@@ -652,3 +652,46 @@ nav a {
     font-weight: 200;
     background-color: rgb(228, 225, 225);
 }
+
+#page-6 {
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 100%;
+    padding: 10vh 8vw;
+}
+
+#banner span {
+    color: white;
+}
+
+#banner {
+    background-image: url(./assets/p6-banner.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+   /*  background-color: skyblue; */
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    font-family: sans-trail;
+    color: rgba(255, 255, 255, 0.534);
+    padding: 23vh 5vw;
+}
+
+#banner h1 {
+   /*  background-color: skyblue; */
+    width: 50%;
+    font-size: 5vh;
+}
+
+#banner button {
+    padding: 2vh 2.5vh;
+    font-size: 2vh;
+    font-weight: 600;
+    font-family: switzer;
+    border-radius: 25px;
+    border: none;
+}
