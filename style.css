@@ -30,7 +30,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* display: none; */
+  display: none;
 }
 
 #bg {
@@ -152,7 +152,7 @@ nav a {
 #page-2 {
   height: 150%;
   width: 100%;
-  /* display: none; */
+  display: none;
 }
 
 .txt {
@@ -320,7 +320,7 @@ nav a {
     align-items: center;
     justify-content: center;
     padding: 10vh 8vw ;
-    /* display: none; */
+    display: none;
 }
 
 #bg-watch {
@@ -414,7 +414,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* display: none; */
+    display: none;
 }
 
 #p4-txt{
@@ -548,7 +548,107 @@ nav a {
 }
 
 #page-5 {
-    margin-top: 22vh;
+    margin-top: 15vh;
     height: 100%;
-    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ /*    background-color: orange; */
+}
+
+#hero h4 {
+    color: rgb(168, 167, 165);
+}
+
+#hero h2 {
+    font-family: sans-trail;
+    font-weight: 200;
+    margin-bottom: ;
+}
+
+.p5-cards {
+    /* background-color: skyblue; */
+    height: 38vh;
+    width: 60%;
+}
+
+.p5-card {
+    height: 100%;
+    width: 100%;
+   /*  background-color: yellowgreen; */
+    display: flex;
+    gap: 5vw;
+}
+
+#p5-img {
+    width: 30%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    background-image: url(./assets/p5-crd-img.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 35px;
+}
+
+#p5-content {
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    font-size: 2vh;
+    font-family: switzer;
+    color: rgb(168, 167, 165);
+}
+
+#p5-content span {
+    color: #000;
+}
+
+#user-data {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    color: black;
+}
+
+#username {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    padding: 2px 8px;
+    font-size: 1.4vh;
+    font-weight: 600;
+    border: 1px solid rgb(168, 167, 165);
+    border-radius: 5px;
+}
+
+#p5-cont-down p:nth-child(2) {
+    font-size: 1.5vh;
+}
+
+#p5-cont-down p:nth-child(3) {
+    font-size: 2vh;
+    color: rgb(111, 110, 108);
+}
+
+#arrow-btns {
+    margin-top: 9vh;
+    height: 8vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    padding-left: 2vw;
+}
+
+#arrow-btns button {
+    height: 7vh;
+    width: 7vh;
+    padding: 0.5vw;
+    font-size: 4vh;
+    border-radius: 50%;
+    border: none;
+    font-weight: 200;
+    background-color: rgb(228, 225, 225);
 }
