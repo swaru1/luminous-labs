@@ -150,7 +150,7 @@ nav a {
 }
 
 #page-2 {
-  height: 100%;
+  height: 150%;
   width: 100%;
   display: none;
 }
@@ -305,13 +305,14 @@ nav a {
 }
 
 #page-3 {
-    background-color: khaki;
+    /* background-color: khaki; */
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10vh 8vw ;
+    display: none;
 }
 
 #bg-watch {
@@ -329,6 +330,11 @@ nav a {
     background-image: url(./assets/watch.webp);
     background-position: center;
     background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: all ease 0.3s;
 }
 
 #txt-kini {
@@ -346,14 +352,49 @@ nav a {
     color: whitesmoke;
 }
 
-#txt-kini h2 {
-    display: inline-block;
-}
-
 #btn-div2{
-    background-color: rgba(11, 11, 11, 0.381);
+    background-color: rgba(11, 11, 11, 0.595);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 70%;
+    width: 100%;
+    margin-bottom: 8vh;
+    width: 55%;
+    padding: 0.8vh 0.4vw 0.8vh 2.5vw;
+    border-radius: 50px;
+    font-family: sans-trail;
+    font-weight: 100;
+    color: #fff;
 }
+
+#btn-div2 h2{
+    font-size: 2vh;
+    font-weight: 200;
+}
+
+#price-btn {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+#price-btn h2{
+    font-size: 3vh;
+    font-weight: 200;
+}
+
+#buy-btn {
+    height: 8vh;
+    width: 8vw;
+    font-size: 2.2vh;
+    font-family: sans-trail;
+    border-radius: 45px;
+    border: none;
+    transition: all ease 0.3s;
+}
+
+#buy-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
