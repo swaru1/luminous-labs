@@ -30,7 +30,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  display: none;
+  /* display: none; */
 }
 
 #bg {
@@ -152,7 +152,7 @@ nav a {
 #page-2 {
   height: 150%;
   width: 100%;
-  display: none;
+  /* display: none; */
 }
 
 .txt {
@@ -286,6 +286,10 @@ nav a {
   font-size: 2vh;
 }
 
+.card button:hover {
+    cursor: pointer;
+}
+
 #btn-div {
   width: 100%;
   display: flex;
@@ -304,6 +308,10 @@ nav a {
   margin-bottom: 7vh;
 }
 
+#p2-btn:hover {
+    cursor: pointer;
+}
+
 #page-3 {
     /* background-color: khaki; */
     height: 100%;
@@ -312,7 +320,7 @@ nav a {
     align-items: center;
     justify-content: center;
     padding: 10vh 8vw ;
-    display: none;
+    /* display: none; */
 }
 
 #bg-watch {
@@ -396,15 +404,17 @@ nav a {
 #buy-btn:hover{
     background-color: #000;
     color: #fff;
+    cursor: pointer;
 }
 
 #page-4 {
     /* background-color: skyblue; */
-    height: 300%;
+    height: 340%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* display: none; */
 }
 
 #p4-txt{
@@ -535,4 +545,10 @@ nav a {
     height: 12vh;
     border: 1px solid rgb(168, 167, 165);
     border-radius: 15px;
+}
+
+#page-5 {
+    margin-top: 22vh;
+    height: 100%;
+    background-color: orange;
 }
